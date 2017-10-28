@@ -1,0 +1,102 @@
+#crystal{
+
+text-align:center;
+
+}
+
+#cheading{
+
+font-size:75px;
+
+
+}
+
+
+.divback{
+
+background-color:black;
+font-size: 20px;
+
+}
+
+
+
+
+p{
+
+color: white;
+
+
+}
+
+h3{
+
+background-color:gray;
+color:white;
+text-align: center;
+
+
+}
+
+#results_crystal{
+
+font-size: 30px;
+text-align: center;
+}
+
+#results_user{
+
+font-size: 30px;
+text-align: center;
+
+}
+
+
+#one{
+background-color: black;
+
+height: 200px
+
+}
+
+#two{
+
+background-color: black;
+
+height:200px;
+}
+
+#ytally{
+
+text-align: center;
+font-size: 40px;
+
+}
+
+#results{
+
+text-align: center;
+font-size: 30px;
+}
+
+#cNumber{
+
+text-align: center;
+font-size: 40px;
+padding-right:10px;
+
+}
+
+#scoreb{
+
+background-color: black;
+
+}
+
+img{
+
+height:100px;
+width:100px;
+padding:20px;
+
+}
