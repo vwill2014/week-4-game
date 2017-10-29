@@ -4,7 +4,8 @@
  	<title>Guess The Number Using the Crystals</title>
  <!-- Added link to the jQuery Library -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
+	
+<script type="text/javascript" src="assets/javascript/game.js"></script>
 	
   <!-- Added a link to Bootstrap-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -14,7 +15,7 @@
  <body background="assets/images/background.jpg">
 
  	<div class="container">
- 		
+ 		<!-- Title of Page -->
 		<div class="row">
 
 			<div  id="crystal" class="col-sm-12">
@@ -22,10 +23,10 @@
 			<h1 id="cheading">The Crystal Game</h1>
 
 			</div>
-		
 
 		</div>
 
+		<!-- game directions -->
 		<div class="row">
 
 			<div class="divback" class="col-sm-12">
@@ -41,29 +42,33 @@
 			
 		</div>
 
+	
 		<div  class="row">
 
+	
 			<div id="one" class="col-sm-4">
 
 			<h3>Match the Crystal's Number</h3>
 			<hr>
-			<p id="cNumber">56</p>
+			<!-- Crystal random number goes within this paragraph -->
+			<p id="crystalNumber"></p>
 				
 			</div>
 
-			
 			<div class="col-sm-4">
-			
-
+		
 			</div>
 
 			
 			<div id="two" class="col-sm-4">
-				
+	
 			<h3>Your Tally</h3>
 			<hr>
+
+			<!-- User Tally goes within this paragraph. -->
 			<p id="ytally">56</p>
 
+			<!-- customized alert goes in paragraph in an if, elseif, else statment -->
 			<p id="results">You Win!!!</p>
 
 			</div>
@@ -77,7 +82,7 @@
 			
 			
 			<div id="scoreb" class="col-sm-4">
-
+				<!-- each of these pictures need to have a value set to them that is generated randomly after each round of play -->
 				<div class="row">
 					<div class="col-sm-3">
 						<img src="assets/images/blue_crystal.jpg">
@@ -97,8 +102,9 @@
 
 				</div>
 
-
+			<!-- wins keeps track of how many the user wins -->
 			<p id="results_crystal">Wins:</p>
+			<!-- Losses keeps track of how many times user loses -->
 			<p id="results_user">Losses:</p>	
 
 			</div>
