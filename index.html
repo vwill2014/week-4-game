@@ -1,128 +1,83 @@
- <!DOCTYPE html>
- <html>
- <head>
- 	<title>Guess The Number Using the Crystals</title>
- <!-- Added link to the jQuery Library -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	
-<script type="text/javascript" src="assets/javascript/game.js"></script>
-	
-  <!-- Added a link to Bootstrap-->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Crystal Game</title>
 
- </head>
- <body background="assets/images/background.jpg">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 
- 	<div class="container">
- 		<!-- Title of Page -->
-		<div class="row">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-			<div  id="crystal" class="col-sm-12">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-			<h1 id="cheading">The Crystal Game</h1>
+</head>
+<body>
+<div class="container">
 
-			</div>
+<div class="row">
+  <div id="introDiv1" class="col-sm-8">
+  	
+	<h2 id="h2">Crystal Number</h2>
+	<p id = "crystalNumber">56</p>
 
-		</div>
-
-		<!-- game directions -->
-		<div class="row">
-
-			<div class="divback" class="col-sm-12">
-			<p> Directions:Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-			</p>
-
-			</div>
-			
-		</div>
+	<p class= "score">Wins:<span></p>
+	<p class= "score">Loses:<span></p>
 
 	
-		<div  class="row">
 
-	
-			<div id="one" class="col-sm-4">
-
-			<h3>Match the Crystal's Number</h3>
-			<hr>
-			<!-- Crystal random number goes within this paragraph -->
-			<p id="showNumber"></p>
-				
-			</div>
-
-			<div class="col-sm-4">
-		
-			</div>
-
-			
-			<div id="two" class="col-sm-4">
-	
-			<h3>Your Tally</h3>
-			<hr>
-
-			<!-- User Tally goes within this paragraph. -->
-			<p id="ytally">56</p>
-
-			<!-- customized alert goes in paragraph in an if, elseif, else statment -->
-			<p id="results">You Win!!!</p>
-
-			</div>
-
-		</div>
-
-		<div clas="row">
-
-			<div class="col-sm-4">
-			</div>
-			
-			
-			<div id="scoreb" class="col-sm-4">
-				<!-- each of these pictures need to have a value set to them that is generated randomly after each round of play -->
-				<div class="row">
-					<!-- need to add a click lister to these crystals. I also need to add value to each crystal -->
-					<div class="col-sm-3">
-						<img class="cnumber" src="assets/images/blue_crystal.jpg">
-					</div>
-						
-					<div class="col-sm-3">
-						<img class= "cnumber" src="assets/images/fire.jpg">
-					</div>
-
-					<div class="col-sm-3">
-						<img  class= "cnumber"src="assets/images/fluorite.jpg">
-					</div>
-
-					<div class="col-sm-3">
-						<img class = "cnumber" src="assets/images/white_crystal.jpg">
-					</div>
-
-				</div>
-
-			<!-- wins keeps track of how many the user wins -->
-			<p id="results_crystal">Wins:</p>
-			<!-- Losses keeps track of how many times user loses -->
-			<p id="results_user">Losses:</p>	
-
-			</div>
-
-			<div class="col-sm-4">
-			</div>
-				
+  </div>
 
 
-
-
-
-		</div>
-
- 	</div>
-
-
+  <div id="introDiv2" class="col-sm-4">
+  	
+  	<h3>Your Tally</h3>
+  	<p id="userTally">56</p>
+	<p id="directions"><em>Directions:</em> Use the crystals below to tally the total of the crystal number. Becareful not to go over the number. If you do...you will lose.</p>
+  </div>
+</div>
  
- </body>
- </html>
+</div>
+
+
+	<div class="row">
+
+		<div class ="col-sm-12">
+
+				<div class="row">
+
+					  <div class="col-sm-3"><img class = "image" src="https://media.giphy.com/media/CLJlD7mL1e0Cc/giphy.gif"></div>
+				
+
+				
+					  <div class="col-sm-3"><img class ="image" src="https://media.giphy.com/media/14w9WNvpFKXoZO/giphy.gif"></div>
+				
+
+				
+					 
+					  <div class="col-sm-3"><img class = "image" src="https://media.giphy.com/media/PvjFRk02wpL5m/giphy.gif"></div>
+				
+			
+				
+
+					  <div class="col-sm-3">
+						<img class = "image" src="https://media.giphy.com/media/aYe3eSbz2jLqg/giphy.gif">
+						</div>
+			
+				</div>
+				
+
+		</div>		
+	
+	</div>				
+
+</div>
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>

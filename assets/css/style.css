@@ -1,102 +1,62 @@
-#crystal{
+.image{
+margin-top:30px;
+width:100%;
+height:100%;
+
+}
+
+.score{
+
+font-size:20px;
+
+
+}
+
+#introDiv1{
+margin-top:30px;
+background-color:black;
+font-size:30px;
+color:white;
+height: 300px;
+border-right:20px;
+border-style:solid;
+border-color: white;
+
+
+}
+
+#introDiv2{
+margin-top:30px;
+background-color:black;
+font-size:30px;
+color:white;
+height: 300px;
+text-align: center;
+
+}
+
+#crystalNumber{
+
+font-size:50px;
+text-align: center;
+
+}
+
+#h2{
 
 text-align:center;
 
-}
-
-#cheading{
-
-font-size:75px;
-
 
 }
 
+#userTally{
 
-.divback{
-
-background-color:black;
-font-size: 20px;
+font-size: 50px;
 
 }
 
+#directions{
+font-size:15px;
 
-
-
-p{
-
-color: white;
-
-
-}
-
-h3{
-
-background-color:gray;
-color:white;
-text-align: center;
-
-
-}
-
-#results_crystal{
-
-font-size: 30px;
-text-align: center;
-}
-
-#results_user{
-
-font-size: 30px;
-text-align: center;
-
-}
-
-
-#one{
-background-color: black;
-
-height: 200px
-
-}
-
-#two{
-
-background-color: black;
-
-height:200px;
-}
-
-#ytally{
-
-text-align: center;
-font-size: 40px;
-
-}
-
-#results{
-
-text-align: center;
-font-size: 30px;
-}
-
-#cNumber{
-
-text-align: center;
-font-size: 40px;
-padding-right:10px;
-
-}
-
-#scoreb{
-
-background-color: black;
-
-}
-
-img{
-
-height:100px;
-width:100px;
-padding:20px;
 
 }
